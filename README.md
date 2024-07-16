@@ -1,6 +1,6 @@
 # Portfolio-Delivery
 
-**1. Description about the algorithm used**
+## Description about the algorithm used
 
 The base of the algorithm is JavaScript. Our JavaScript code consists of 5 main parts:
 
@@ -19,7 +19,7 @@ The base of the algorithm is JavaScript. Our JavaScript code consists of 5 main 
 **5**. Output
    The ASCII characters are then put together into a string that represents the whole ASCII art.
 
-**2. Description about the technology used**
+## Description about the technology used
 
 Our code utilizes several technologies:
 
@@ -33,7 +33,7 @@ Our code utilizes several technologies:
 
 **Canvas API**: Used for rendering images and accessing pixel data, which is essential for the ASCII conversion process.
 
-**3. Description about the end result**
+## Description about the end result
 
 The end result of this code is a website that allows users to upload images and convert them to ASCII art. The resulting ASCII art is then displayed on the screen. We also included a reset button that allows users to clear their previously uploaded image and the resulting ASCII art. By doing so, visitors can upload other images easily.
 
