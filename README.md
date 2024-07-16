@@ -13,10 +13,14 @@ The base of the algorithm is JavaScript. Our JavaScript code consists of 5 main 
 **3**. Brightness Calculation
    To determine which ASCII character will represent a pixel, the brightness of each pixel is calculated using the average of the RGB values.
 
-**4**. Character Mapping
+**4**. Color Selection
+      Functionality so that users can select the color of the ASCII characters from a dropdown menu.
+
+
+**5**. Character Mapping
    The algorithm maps the calculated brightness levels to specific ASCII characters (e.g., @%#*+=-:. ). Darker pixels correspond to characters that visually appear darker.
 
-**5**. Output
+**6**. Output
    The ASCII characters are then put together into a string that represents the whole ASCII art.
 
 ## Description about the technology used
