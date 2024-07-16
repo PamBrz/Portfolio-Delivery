@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image to ASCII Art Converter</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <div class="logo">
+                <p>PORTFOLIO</p>
+            </div>
+        </nav>
+    </header>
+    <main class="content">
+        <section class="center">
+            <h1 class="headline">ASCII Art Converter</h1>
+            <img src="ASCIIComputer.png" alt="Computer" class="converter-image">
+            <p>This project converts uploaded images to ASCII art.</p>
+            <div>
+                <label for="colorSelect">Choose a colour:</label>
+                <select id="colorSelect">
+                    <option value="#000000">black</option>
+                    <option value="#ff2471">pink</option>
+                    <option value="#00ff00">green</option>
+                    <option value="#0000ff">blue</option>
+                </select>
+            </div>
+            <div class="button-container">
+                <label for="upload" class="custom-file-upload">
+                    <i class="fas fa-cloud-upload-alt"></i> Upload Image
+                </label>
+                <input type="file" id="upload" accept="image/*">
+                <button id="resetButton" class="custom-file-upload" style="display: none;">Reset</button>
+            </div>
+          
+            <canvas id="canvas" style="display:none;"></canvas>
+            <pre id="asciiArt" class="ascii-art" style="display: none;"></pre>
+        </section>        
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
