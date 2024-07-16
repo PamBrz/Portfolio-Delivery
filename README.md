@@ -1,4 +1,5 @@
 # Portfolio-Delivery
+Pamela Brzoza and Josefine Schmid
 
 ## Description about the algorithm used
 
