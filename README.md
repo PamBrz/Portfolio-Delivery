@@ -3,6 +3,7 @@
 **1. Description about the algorithm used**
 
 The base of the algorithm is JavaScript. Our JavaScript code consists of 5 main parts:
+
 **1**. Image Uploading
    When you upload an image, it is read using the FileReader. Then, it can be converted to ASCII Art.
 
